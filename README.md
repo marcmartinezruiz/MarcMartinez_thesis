@@ -1,7 +1,7 @@
 # Solving the Ship Loading and Crane Split Problem
 
-This solution method has been developed to solve the Ship Loading and Crane Split Problem. In order to correctly execute the program it is necessary to include the listed packages in the `Project.toml` and `Manifest.toml` files (either manually or by activating the preset environment).
-After making sure that the computer has all the required packages, the next step is to include the `main.jl` file. To do that, the user must initiate Julia inside the `MarcMartinez_thesis/src/basics/` directory.
+This solution method has been developed to solve the Ship Loading and Crane Split Problem. In order to correctly execute the program it is necessary to include the listed packages in the `Project.toml` and `Manifest.toml` files (either manually or by activating the preset environment). After making sure that the computer has all the required packages, the next step is to include the `main.jl` file. To do that, the user must initiate Julia inside the `MarcMartinez_thesis/src/basics/` directory.
+
 To trigger a specific dataset, the user must change the content of the `main.jl` file. Line 32 has to be commented and line 33 uncomented. The name of the desired file has to replace `500C_100Type_Scattered_4QC.txt`.
 
 
