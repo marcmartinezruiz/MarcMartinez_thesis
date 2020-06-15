@@ -19,7 +19,7 @@ include("main.jl")
 ```
 To trigger a specific dataset, the user must change the content of the `main.jl` file. Line 32 has to be commented and line 33 uncomented. The name of the desired file has to replace `500C_100Type_Scattered_4QC.txt`.
 
-_Note_: Even though it is possible to run the solution method using a single thread, it is currently set to use 8 threads by default, so Julia should be initiated like this:
+<ins>Note:</ins> Even though it is possible to run the solution method using a single thread, it is currently set to use 8 threads by default, so Julia should be initiated like this:
 ```
 julia -p 8
 ```
